@@ -1,15 +1,15 @@
-#Primeira Aula Desenvolvimento Web
+# Primeira Aula Desenvolvimento Web
 
-exercício 1
+## exercício 1
 
-/* Componente */
+/* Componente */<br>
 Criar um Componente Novo
 Criar 2 variáveis com números
 Criar uma função para somar os 2 número e elevar ao quadrado
 Clicar no botão, disparar a função
 Mostrar o resultado no console
 
-/* Versionamento */
+/* Versionamento */<br>
 Criar um novo repositório no GitHub
 Adicionar e Commitar as Alterações (Não é preciso inicializar o git pois o create-react-app já faz por padrão)
 Vincular o projeto ao GitHub
