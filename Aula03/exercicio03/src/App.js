@@ -1,4 +1,3 @@
-import './App.css';
 import Lista from './components/List';
 
 function App() {

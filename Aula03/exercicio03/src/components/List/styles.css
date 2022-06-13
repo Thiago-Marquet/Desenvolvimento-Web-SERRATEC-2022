@@ -5,26 +5,17 @@ h1{
 }
 
 .div-tarefas{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    */
     min-width: 1000px;
     max-width: 1000px;
     display: inline-block;
     border: 1px groove;
-
+    box-shadow: 4px 0px 55px 2px rgba(94, 94, 94, 0.5);
 }
 
 .div-input-btn{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: left;
-    max-width: 1000px; */
     float: right;
     position:sticky;
-    top: 0; 
-
+    top: 5px; 
 }
 
 li{
@@ -35,32 +26,31 @@ li{
 }
 
 button{
-    margin-left: 50%;
+    border: 5px groove;
+    margin-left: 40%;
     margin-top: 10px;
     border-radius: 10px;
     width: 45%;
     height: 50%;
     background-color: #ffffff;
     cursor: pointer;
-    align-self: flex-end;
-
 }
 
 button:hover{
-    margin-left: 50%;
-    margin-top: 10px;
-    border-radius: 10px;
-    width: 45%;
-    height: 50%;
     background-color: #c2d5f8;
-    cursor: pointer;
-    align-self: flex-end;
-
 }
 
-input[type=text]{
-    align-self: flex-end;
-    width: 90%;
-    border-style: groove;
-    background: #f1f1f1;
- }
+span{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+textarea {
+    border: 1px groove;
+    margin-left: 25%;
+    resize: none;
+}
+
+textarea:focus-visible {
+    border: none;
+}
