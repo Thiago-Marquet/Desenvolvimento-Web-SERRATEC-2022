@@ -1,7 +1,10 @@
 import React,{ useState } from 'react';
+import {Link, useLocation} from 'react-router-dom'
 import "./styles.css"
 
 const Lista = () =>{
+
+    const location = useLocation();
 
     const [listaTarefas, setListaTarefas] = useState([]);
     const [novaTarefa, setNovaTarefa] = useState();
@@ -15,13 +18,15 @@ const Lista = () =>{
     }
 
     return (
-        <>
-            <h1>Tarefas</h1>
+        <>  
+            <div>
+                <h1>{location.state}</h1>
+                <Link to={"/"}>Home</Link> <Link to={"/exercicios"}>| Exercícios</Link>
+            </div>
             <div className="div-tarefas">
                 <ul>
                     {listaTarefas.length === 0 ? <span> Não existem tarefas</span> :
-                        listaTarefas.map((tarefas, index) => (<li key={index}><span>Tarefa {index + 1} :</span> {tarefas} </li>))
-                    }
+                        listaTarefas.map((tarefas, index) => (<li key={index}><span>Tarefa {index + 1} :</span> {tarefas} </li>))}
                 </ul>
             </div>
             <div className="div-input-btn">   

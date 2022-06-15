@@ -1,0 +1,13 @@
+.btn_login{
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.23);
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.btn_login:hover{
+    border-style: solid;
+    background-color: rgb(194, 233, 254);
+    box-shadow: 2px 5px 2px 1px rgba(0, 0, 0, 0.23);
+    
+}
