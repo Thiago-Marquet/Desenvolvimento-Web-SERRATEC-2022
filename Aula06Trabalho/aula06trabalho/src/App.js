@@ -8,7 +8,7 @@ function App() {
 
   const getDrink = async () => {
     const { data } = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/random.php')
-    setDrink(data)
+    setDrink(data)  
   }
 
   useEffect(() => {
